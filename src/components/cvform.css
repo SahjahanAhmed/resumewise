@@ -1,0 +1,138 @@
+.create-resume-btn {
+  border: none;
+  padding: 20px;
+  background-color: green;
+  color: white;
+  margin: 20px auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.create-resume-btn:hover {
+  background-color: rgb(2, 75, 2);
+}
+.left {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.left > h3 {
+  text-align: center;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inputs input {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.right {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 10px;
+  width: 100%;
+}
+.right > .describe,
+.educations,
+.socials,
+.experience {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.describe > textarea,
+.experience > textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  min-height: 100px;
+}
+.educations {
+  position: relative;
+  padding-bottom: 40px;
+}
+.educations > input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 4px;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.add-education-btn {
+  position: absolute;
+  bottom: 0;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+.add-education-btn:hover {
+  background-color: rgb(3, 98, 3);
+}
+.socials {
+  width: 100%;
+}
+.socials div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.socials input {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.container {
+  display: flex;
+  gap: 10px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.genarate-resume {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.genarate-resume-btn,
+.reset-btn {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.genarate-resume-btn:hover,
+.reset-btn:hover {
+  background-color: rgb(2, 75, 2);
+}

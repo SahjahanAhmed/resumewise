@@ -1,0 +1,10 @@
+.navbar {
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  padding: 4px 10px;
+  font-family: sans-serif;
+}
+.navbar > .left > .logo {
+  color: green;
+  font-family: ubuntu, sans-serif;
+}
